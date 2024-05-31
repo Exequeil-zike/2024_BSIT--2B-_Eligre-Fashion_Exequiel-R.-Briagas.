@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Merriweather", serif;
+}
+
+.main {
+    background: #f7f5f2;
+}
+
+html::-webkit-scrollbar {
+    width: 0px;
+}
+
+
+/*--------------------navbar section-----------------*/
+.navbar {
+    background-color: #a37251;  
+}
+
+.icons_links{
+    margin-right: 33px;
+}
+
+.icons_links i {
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: black;
+}
+
+.icons_links i:hover{
+    color: #fed7bd;
+}
+
+#Login {
+    width: 100px;
+    border: 2px solid #a37251;
+    color: #f7f5f2;
+    font-weight: bold;
+    border-radius: 50px;
+    height: 5ch;
+    transition: 0.5 ease;
+    cursor: pointer;
+}
+
+#Login a {
+    text-decoration: none;
+    color: #a37251;
+    transition: 0.5s ease;
+}
+
+#Login:hover {
+    background-color: #fed7bd;
+    color: #f7f5f2;
+}
+
+#Sign-up {
+    width: 100px;
+    border: 2px solid #a37251;
+    color: #f7f5f2;
+    font-weight: bold;
+    border-radius: 50px;
+    height: 5ch;
+    transition: 0.5 ease;
+    cursor: pointer;
+}
+
+#Sign-up a {
+    text-decoration: none;
+    color: #a37251;
+    transition: 0.5s ease;
+}
+
+#Sign-up:hover {
+    background-color: #fed7bd;
+    color: #f7f5f2;
+}
+
+.nav-item .nav-link {
+    color: black;
+    margin-left: 10px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.nav-item .nav-link:hover{
+    background: white;
+    border-radius: 50px;
+    color: black;
+
+}
+.navbar form button {
+    background: black;
+    color: white;
+    border: #ad7b5a;
+}
+
+/*-------------home section--------------*/
+
+#home {
+    width: 100%;
+    height: 90vh;
+    background-image: url(./images/nnn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 88%;
+}
+
+#home .content {
+    padding-top: 150px;
+    margin-left: 60px;
+}
+
+#home .content h3 {
+    font-size: 50px;
+    color: black;
+}
+
+#home .content p {
+    margin-top: 10px;
+    color: black;
+    margin-bottom: -3px;
+}
+
+#btn {
+    width: 150px;
+    height: 36px;
+    margin-top: 20px;
+    background: white;
+    font-weight: bold;
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+#btn:hover {
+    background: #fed7bd;
+}
+
+/*------------About Us section-------------*/
+#about{
+    width: 100%;
+    height: 100vh;
+    background: #f7f5f2;
+    font-family: 'Roboto', sans-serif;
+  }
+  #about .container{
+    padding-top: 70px;
+  }
+  .heading{
+    text-align: center;
+    margin-bottom: 50px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  #about .card{
+    border-radius: 10px;
+  }
+  #about .card img{
+    border-radius: 10px;
+  }
+  #about_btn{
+    width: 200px;
+    height: 36px;
+    background: transparent;
+    border: 1px solid #ad7b5a;
+    color: #ad7b5a;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  #about_btn:hover{
+    background: #ad7b5a;
+    color: white;
+  }
+
+/*---------latest products section---------*/
+.card {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 10px 10px 0 0;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-img:hover {
+  transform: scale(1.1);
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.card-name {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-price {
+  font-size: 15px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.btn-add-to-cart {
+  background-color: #ad7b5a;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px solid #ad7b5a;
+  margin-top: -5px;
+}
+
+.btn-add-to-cart:hover {
+  background-color: #fff;
+  color: #ad7b5a;
+  transition: all 0.3s ease-in-out;
+}
+
